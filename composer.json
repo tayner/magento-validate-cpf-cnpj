@@ -1,6 +1,6 @@
 {
   "name": "tayner/magento-validate-cpf-cnpj",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Responsável por validar o CPF e CNPJ do checkout.",
   "type": "magento2-module",
   "require": {
