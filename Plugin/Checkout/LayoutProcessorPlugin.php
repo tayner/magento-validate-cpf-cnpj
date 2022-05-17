@@ -21,7 +21,7 @@ class LayoutProcessorPlugin
      */
     public function afterProcess(
         LayoutProcessor $subject,
-        array  $jsLayout
+        array  &$jsLayout
     ) {
         $jsLayout['components']['checkout']['children']['steps']['children']['shipping-step']['children']
         ['shippingAddress']['children']['shipping-address-fieldset']['children']['vat_id']['validation']['validate-cpf'] = true;
